@@ -1,0 +1,1335 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.14083,11.50126 ]
+    },
+    "properties": {
+    "LOCATION":"PUTHUMALA PRABHAKARAN",
+    "rainfall":6,
+    "POLYGON FID":1,
+    "POLYGON ID NAME":7,
+    "PANCHAYAT CODE":"MEP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.12965,11.5326 ]
+    },
+    "properties": {
+    "LOCATION":"CHULIKKA ESTATE RANJITH",
+    "rainfall":15,
+    "POLYGON FID":1,
+    "POLYGON ID NAME":7,
+    "PANCHAYAT CODE":"MEP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.13641,11.53425 ]
+    },
+    "properties": {
+    "LOCATION":"NELLIMUNDA ESTATE",
+    "rainfall":0,
+    "POLYGON FID":1,
+    "POLYGON ID NAME":7,
+    "PANCHAYAT CODE":"MEP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.0765,11.57003 ]
+    },
+    "properties": {
+    "LOCATION":"ODATHODE ESTATE RADHAKRISHNAN",
+    "rainfall":5,
+    "POLYGON FID":2,
+    "POLYGON ID NAME":13,
+    "PANCHAYAT CODE":"MEP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.11696,11.58322 ]
+    },
+    "properties": {
+    "LOCATION":"ERUMAKOLLY(CHEMBRA) SABU",
+    "rainfall":31,
+    "POLYGON FID":2,
+    "POLYGON ID NAME":13,
+    "PANCHAYAT CODE":"MEP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.11964,11.57347 ]
+    },
+    "properties": {
+    "LOCATION":"JAYAPRAKASH MEPPADI",
+    "rainfall":7.5,
+    "POLYGON FID":3,
+    "POLYGON ID NAME":14,
+    "PANCHAYAT CODE":"MEP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.012501,11.587522 ]
+    },
+    "properties": {
+    "LOCATION":"ACHOOR ESTATE, FACTORY DIVISION",
+    "rainfall":24,
+    "POLYGON FID":4,
+    "POLYGON ID NAME":21,
+    "PANCHAYAT CODE":"POZ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.00861,11.59306 ]
+    },
+    "properties": {
+    "LOCATION":"SIVASANKARAN KURICHERMALA LD BENGATHODE",
+    "rainfall":25,
+    "POLYGON FID":4,
+    "POLYGON ID NAME":21,
+    "PANCHAYAT CODE":"POZ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.99158,11.59547 ]
+    },
+    "properties": {
+    "LOCATION":"THANKARAJ KURICHERMALA UD",
+    "rainfall":29,
+    "POLYGON FID":4,
+    "POLYGON ID NAME":21,
+    "PANCHAYAT CODE":"POZ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.016098,11.598059 ]
+    },
+    "properties": {
+    "LOCATION":"ACHOOR ESTATE,ACHOOR DIVISION",
+    "rainfall":29,
+    "POLYGON FID":4,
+    "POLYGON ID NAME":21,
+    "PANCHAYAT CODE":"POZ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.00781,11.60461 ]
+    },
+    "properties": {
+    "LOCATION":"Pozhuthana Melmuri Lisha",
+    "rainfall":48.4,
+    "POLYGON FID":4,
+    "POLYGON ID NAME":21,
+    "PANCHAYAT CODE":"POZ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.02972,11.59139 ]
+    },
+    "properties": {
+    "LOCATION":"DIVAKARAN POZHUTHANA ANOTH",
+    "rainfall":14,
+    "POLYGON FID":5,
+    "POLYGON ID NAME":22,
+    "PANCHAYAT CODE":"POZ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.04583,11.62781 ]
+    },
+    "properties": {
+    "LOCATION":"VENGAPALLY VAVADI NARAYANKUTTY",
+    "rainfall":3.4,
+    "POLYGON FID":5,
+    "POLYGON ID NAME":22,
+    "PANCHAYAT CODE":"VEN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.08714,11.63628 ]
+    },
+    "properties": {
+    "LOCATION":"RATNAKAR KAINATTY",
+    "rainfall":2.54,
+    "POLYGON FID":6,
+    "POLYGON ID NAME":35,
+    "PANCHAYAT CODE":"KAL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.10765,11.64909 ]
+    },
+    "properties": {
+    "LOCATION":"CHANDRANATH MUTTIL",
+    "rainfall":5.08,
+    "POLYGON FID":6,
+    "POLYGON ID NAME":35,
+    "PANCHAYAT CODE":"MUT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.09063,11.65333 ]
+    },
+    "properties": {
+    "LOCATION":"T K SREEDHARAN VELLAMPADY",
+    "rainfall":2,
+    "POLYGON FID":6,
+    "POLYGON ID NAME":35,
+    "PANCHAYAT CODE":"MUT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.21719,11.64633 ]
+    },
+    "properties": {
+    "LOCATION":"BATHERY VINEETHA KUPPAMADI ESTATE",
+    "rainfall":7,
+    "POLYGON FID":7,
+    "POLYGON ID NAME":38,
+    "PANCHAYAT CODE":"AMB"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.23494,11.66225 ]
+    },
+    "properties": {
+    "LOCATION":"BEENACHI GOVT HS DEVANANDAN",
+    "rainfall":7.6,
+    "POLYGON FID":7,
+    "POLYGON ID NAME":38,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.33139,11.66389 ]
+    },
+    "properties": {
+    "LOCATION":"KALLOOR MANOJ KUMAR",
+    "rainfall":6.2,
+    "POLYGON FID":8,
+    "POLYGON ID NAME":40,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.31456,11.66842 ]
+    },
+    "properties": {
+    "LOCATION":"SHYAM KUMAR NAIKATTY",
+    "rainfall":6.3,
+    "POLYGON FID":8,
+    "POLYGON ID NAME":40,
+    "PANCHAYAT CODE":"NOOL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.96687,11.72653 ]
+    },
+    "properties": {
+    "LOCATION":"VELLAMUNDA OZHUKANMOOLA VINCENT",
+    "rainfall":11.6,
+    "POLYGON FID":9,
+    "POLYGON ID NAME":61,
+    "PANCHAYAT CODE":"VEL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.9716,11.73328 ]
+    },
+    "properties": {
+    "LOCATION":"VELLAMUNDA THARUVANA SASI",
+    "rainfall":9,
+    "POLYGON FID":9,
+    "POLYGON ID NAME":61,
+    "PANCHAYAT CODE":"VEL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.93091,11.75144 ]
+    },
+    "properties": {
+    "LOCATION":"THETTAMALA (THONDERNADU)",
+    "rainfall":23,
+    "POLYGON FID":9,
+    "POLYGON ID NAME":61,
+    "PANCHAYAT CODE":"THO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.06767,11.74072 ]
+    },
+    "properties": {
+    "LOCATION":"PANAMARAM VANDANA",
+    "rainfall":12,
+    "POLYGON FID":10,
+    "POLYGON ID NAME":63,
+    "PANCHAYAT CODE":"PAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.10913,11.75002 ]
+    },
+    "properties": {
+    "LOCATION":"NADAVAYAL MATHAI",
+    "rainfall":0,
+    "POLYGON FID":11,
+    "POLYGON ID NAME":64,
+    "PANCHAYAT CODE":"PAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.08349,11.75999 ]
+    },
+    "properties": {
+    "LOCATION":"RADHA NAMBIAR NEERVARAM PUNCHAVAYAL",
+    "rainfall":5.84,
+    "POLYGON FID":11,
+    "POLYGON ID NAME":64,
+    "PANCHAYAT CODE":"PAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.10288,11.7702 ]
+    },
+    "properties": {
+    "LOCATION":"AMMANI ANIRUDHAN",
+    "rainfall":2.5,
+    "POLYGON FID":11,
+    "POLYGON ID NAME":64,
+    "PANCHAYAT CODE":"PAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.96377,11.7718 ]
+    },
+    "properties": {
+    "LOCATION":"JINESH BS PANDIKADAV EDAVAKA",
+    "rainfall":9.9,
+    "POLYGON FID":12,
+    "POLYGON ID NAME":76,
+    "PANCHAYAT CODE":"EDA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.96792,11.81222 ]
+    },
+    "properties": {
+    "LOCATION":"BABU MANANTHAVADY OZHAKKODY COFFEE BOARD",
+    "rainfall":5.4,
+    "POLYGON FID":12,
+    "POLYGON ID NAME":76,
+    "PANCHAYAT CODE":"MAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.10025,11.80297 ]
+    },
+    "properties": {
+    "LOCATION":"PAKKOM PULPALLY AKHIL GEORGE",
+    "rainfall":9.3,
+    "POLYGON FID":13,
+    "POLYGON ID NAME":79,
+    "PANCHAYAT CODE":"PUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.9397,11.83299 ]
+    },
+    "properties": {
+    "LOCATION":"THAVINJAL ESTATE",
+    "rainfall":21,
+    "POLYGON FID":14,
+    "POLYGON ID NAME":88,
+    "PANCHAYAT CODE":"THAV"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.95783,11.8404 ]
+    },
+    "properties": {
+    "LOCATION":"THALAPPUZHA ESTATE",
+    "rainfall":30,
+    "POLYGON FID":14,
+    "POLYGON ID NAME":88,
+    "PANCHAYAT CODE":"THAV"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.97634,11.85066 ]
+    },
+    "properties": {
+    "LOCATION":"CHERAKARA (UD)",
+    "rainfall":36,
+    "POLYGON FID":14,
+    "POLYGON ID NAME":88,
+    "PANCHAYAT CODE":"MAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.96561,11.85384 ]
+    },
+    "properties": {
+    "LOCATION":"CHERAKARA (LD)",
+    "rainfall":35,
+    "POLYGON FID":14,
+    "POLYGON ID NAME":88,
+    "PANCHAYAT CODE":"MAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.98056,11.81722 ]
+    },
+    "properties": {
+    "LOCATION":"AHANI BALA MANANTHAVADY KUZHINILAM",
+    "rainfall":12,
+    "POLYGON FID":15,
+    "POLYGON ID NAME":89,
+    "PANCHAYAT CODE":"MAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.00422,11.83981 ]
+    },
+    "properties": {
+    "LOCATION":"JESSIE ESTATE",
+    "rainfall":36,
+    "POLYGON FID":15,
+    "POLYGON ID NAME":89,
+    "PANCHAYAT CODE":"MAN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.03141,11.91859 ]
+    },
+    "properties": {
+    "LOCATION":"BINDHU VIVEK PARSI APPAPARA",
+    "rainfall":7.4,
+    "POLYGON FID":16,
+    "POLYGON ID NAME":105,
+    "PANCHAYAT CODE":"THI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.05838,11.95181 ]
+    },
+    "properties": {
+    "LOCATION":"SREENIVAS PEEVEES THOLPETTY",
+    "rainfall":3.81,
+    "POLYGON FID":16,
+    "POLYGON ID NAME":105,
+    "PANCHAYAT CODE":"THI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.14651,11.47976 ]
+    },
+    "properties": {
+    "LOCATION":"MUNDAKKAI VANARANI ESTATE SABU",
+    "rainfall":2,
+    "POLYGON FID":18,
+    "POLYGON ID NAME":2,
+    "PANCHAYAT CODE":"MEP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.02464,11.52867 ]
+    },
+    "properties": {
+    "LOCATION":"LAKKIDI JOBIN",
+    "rainfall":21,
+    "POLYGON FID":21,
+    "POLYGON ID NAME":5,
+    "PANCHAYAT CODE":"VYT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.10341,11.53446 ]
+    },
+    "properties": {
+    "LOCATION":"SYED RIYAS ELIMBILERI MEPPADI",
+    "rainfall":14.2,
+    "POLYGON FID":22,
+    "POLYGON ID NAME":6,
+    "PANCHAYAT CODE":"MEP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.19942,11.53092 ]
+    },
+    "properties": {
+    "LOCATION":"ARUN RIPPON KADACHIKUNNU",
+    "rainfall":5.1,
+    "POLYGON FID":23,
+    "POLYGON ID NAME":8,
+    "PANCHAYAT CODE":"MOOP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.17894,11.53452 ]
+    },
+    "properties": {
+    "LOCATION":"RIPPON ESTATE",
+    "rainfall":3,
+    "POLYGON FID":23,
+    "POLYGON ID NAME":8,
+    "PANCHAYAT CODE":"MOOP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.23119,11.53744 ]
+    },
+    "properties": {
+    "LOCATION":"NEELIMALA PRADEEP",
+    "rainfall":1.5,
+    "POLYGON FID":24,
+    "POLYGON ID NAME":9,
+    "PANCHAYAT CODE":"MOOP"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.014168,11.561679 ]
+    },
+    "properties": {
+    "LOCATION":"ACHOOR ESTATE, KALLUR DIVISION",
+    "rainfall":26,
+    "POLYGON FID":26,
+    "POLYGON ID NAME":11,
+    "PANCHAYAT CODE":"POZ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.016378,11.576703 ]
+    },
+    "properties": {
+    "LOCATION":"ACHOOR ESTATE, PERINGODA DIVISION",
+    "rainfall":21,
+    "POLYGON FID":26,
+    "POLYGON ID NAME":11,
+    "PANCHAYAT CODE":"POZ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.04017,11.55175 ]
+    },
+    "properties": {
+    "LOCATION":"VYTHIRI CHITHRAKUMAR",
+    "rainfall":12,
+    "POLYGON FID":27,
+    "POLYGON ID NAME":12,
+    "PANCHAYAT CODE":"VYT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.07008,11.58016 ]
+    },
+    "properties": {
+    "LOCATION":"PERUMTHATTA REGIONAL COFFEE RESEARCH STATION",
+    "rainfall":24.5,
+    "POLYGON FID":27,
+    "POLYGON ID NAME":12,
+    "PANCHAYAT CODE":"KAL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.21171,11.55151 ]
+    },
+    "properties": {
+    "LOCATION":"VATTATHUVAYAL",
+    "rainfall":1,
+    "POLYGON FID":28,
+    "POLYGON ID NAME":15,
+    "PANCHAYAT CODE":"AMB"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.21571,11.56985 ]
+    },
+    "properties": {
+    "LOCATION":"ANOOP THOMATTUCHAL KADALMADU",
+    "rainfall":0,
+    "POLYGON FID":29,
+    "POLYGON ID NAME":16,
+    "PANCHAYAT CODE":"AMB"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.92742,11.624 ]
+    },
+    "properties": {
+    "LOCATION":"PADINJARTHARA BANASURA CONTROL SHAFT",
+    "rainfall":67.6,
+    "POLYGON FID":33,
+    "POLYGON ID NAME":19,
+    "PANCHAYAT CODE":"THAR"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.0769,11.59656 ]
+    },
+    "properties": {
+    "LOCATION":"KALPETTA VOLGA",
+    "rainfall":7,
+    "POLYGON FID":35,
+    "POLYGON ID NAME":23,
+    "PANCHAYAT CODE":"KAL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.25489,11.61431 ]
+    },
+    "properties": {
+    "LOCATION":"THOVARIMALA ESTATE",
+    "rainfall":5,
+    "POLYGON FID":38,
+    "POLYGON ID NAME":26,
+    "PANCHAYAT CODE":"NEN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.25039,11.62264 ]
+    },
+    "properties": {
+    "LOCATION":"MANJADI SHINI",
+    "rainfall":0,
+    "POLYGON FID":38,
+    "POLYGON ID NAME":26,
+    "PANCHAYAT CODE":"NEN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.27922,11.62803 ]
+    },
+    "properties": {
+    "LOCATION":"NENMENI KOLIYADI RAJESH",
+    "rainfall":4,
+    "POLYGON FID":39,
+    "POLYGON ID NAME":27,
+    "PANCHAYAT CODE":"NEN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.31003,11.60469 ]
+    },
+    "properties": {
+    "LOCATION":"CHEERAL SOMAN",
+    "rainfall":2.1,
+    "POLYGON FID":40,
+    "POLYGON ID NAME":28,
+    "PANCHAYAT CODE":"NEN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.95778,11.67 ]
+    },
+    "properties": {
+    "LOCATION":"PADINJARTHARA BANASURA DAM",
+    "rainfall":2.8,
+    "POLYGON FID":45,
+    "POLYGON ID NAME":32,
+    "PANCHAYAT CODE":"PAD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.01431,11.64992 ]
+    },
+    "properties": {
+    "LOCATION":"VENGAPALLY MADAKUNNU SADANANDAN",
+    "rainfall":3.2,
+    "POLYGON FID":46,
+    "POLYGON ID NAME":33,
+    "PANCHAYAT CODE":"THAR"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.05583,11.64761 ]
+    },
+    "properties": {
+    "LOCATION":"KOKUZHI SHIVACHAND",
+    "rainfall":2.5,
+    "POLYGON FID":47,
+    "POLYGON ID NAME":34,
+    "PANCHAYAT CODE":"VEN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.05929,11.66303 ]
+    },
+    "properties": {
+    "LOCATION":"RATNAKAR KARIKUTTY",
+    "rainfall":1.27,
+    "POLYGON FID":47,
+    "POLYGON ID NAME":34,
+    "PANCHAYAT CODE":"KOT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.19414,11.66458 ]
+    },
+    "properties": {
+    "LOCATION":"PATHIRIPALAM SHINI",
+    "rainfall":6.1,
+    "POLYGON FID":49,
+    "POLYGON ID NAME":37,
+    "PANCHAYAT CODE":"MEEN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.26794,11.662 ]
+    },
+    "properties": {
+    "LOCATION":"SARVAJANA HSS SARATH",
+    "rainfall":7,
+    "POLYGON FID":50,
+    "POLYGON ID NAME":39,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.26843,11.66358 ]
+    },
+    "properties": {
+    "LOCATION":"SHREYAS OFFICE BATHERY SHAJI KV",
+    "rainfall":7,
+    "POLYGON FID":50,
+    "POLYGON ID NAME":39,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.26353,11.66606 ]
+    },
+    "properties": {
+    "LOCATION":"PRASEED BATHERY",
+    "rainfall":6,
+    "POLYGON FID":50,
+    "POLYGON ID NAME":39,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.29742,11.67197 ]
+    },
+    "properties": {
+    "LOCATION":"GOPALAKRISHNAN MOOLANKAV",
+    "rainfall":6,
+    "POLYGON FID":50,
+    "POLYGON ID NAME":39,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.28389,11.67439 ]
+    },
+    "properties": {
+    "LOCATION":"ODAPPALAM KAVALA BALAGOPAL",
+    "rainfall":6.4,
+    "POLYGON FID":50,
+    "POLYGON ID NAME":39,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.36136,11.67142 ]
+    },
+    "properties": {
+    "LOCATION":"MUTHANGA DARSHAN",
+    "rainfall":15.3,
+    "POLYGON FID":51,
+    "POLYGON ID NAME":41,
+    "PANCHAYAT CODE":"NOOL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.35958,11.67606 ]
+    },
+    "properties": {
+    "LOCATION":"MUTHANGA ATHIKUNI ABIRAM",
+    "rainfall":8.2,
+    "POLYGON FID":51,
+    "POLYGON ID NAME":41,
+    "PANCHAYAT CODE":"NOOL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.95625,11.70159 ]
+    },
+    "properties": {
+    "LOCATION":"VELLAMUNDA MOTHAKKARA SURESH KUMAR",
+    "rainfall":1,
+    "POLYGON FID":56,
+    "POLYGON ID NAME":46,
+    "PANCHAYAT CODE":"VEL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.11981,11.71403 ]
+    },
+    "properties": {
+    "LOCATION":"POOTHADI ANJANA",
+    "rainfall":4.1,
+    "POLYGON FID":60,
+    "POLYGON ID NAME":50,
+    "PANCHAYAT CODE":"POOT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.14522,11.72267 ]
+    },
+    "properties": {
+    "LOCATION":"KENICHIRA BINDU",
+    "rainfall":4.2,
+    "POLYGON FID":60,
+    "POLYGON ID NAME":50,
+    "PANCHAYAT CODE":"POOT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.28754,11.69659 ]
+    },
+    "properties": {
+    "LOCATION":"ODAPPALAM GHS ARAVINDAN",
+    "rainfall":11.1,
+    "POLYGON FID":63,
+    "POLYGON ID NAME":53,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.27444,11.69972 ]
+    },
+    "properties": {
+    "LOCATION":"PAZHERI RAMACHANDRAN",
+    "rainfall":10.4,
+    "POLYGON FID":63,
+    "POLYGON ID NAME":53,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.83467,11.73781 ]
+    },
+    "properties": {
+    "LOCATION":"MATTILAYAM CHANDU",
+    "rainfall":13.1,
+    "POLYGON FID":68,
+    "POLYGON ID NAME":58,
+    "PANCHAYAT CODE":"THO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.85761,11.74228 ]
+    },
+    "properties": {
+    "LOCATION":"NIRAVILPUZHA ABILASH",
+    "rainfall":9,
+    "POLYGON FID":69,
+    "POLYGON ID NAME":59,
+    "PANCHAYAT CODE":"THO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.86661,11.76219 ]
+    },
+    "properties": {
+    "LOCATION":"ANIL KUMAR PERLOM",
+    "rainfall":10,
+    "POLYGON FID":69,
+    "POLYGON ID NAME":59,
+    "PANCHAYAT CODE":"THO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.85049,11.76308 ]
+    },
+    "properties": {
+    "LOCATION":"RAGESH KUNHOME",
+    "rainfall":11,
+    "POLYGON FID":69,
+    "POLYGON ID NAME":59,
+    "PANCHAYAT CODE":"THO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.90175,11.73549 ]
+    },
+    "properties": {
+    "LOCATION":"BENNY MAKKIYAD",
+    "rainfall":6,
+    "POLYGON FID":70,
+    "POLYGON ID NAME":60,
+    "PANCHAYAT CODE":"THO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.99071,11.72719 ]
+    },
+    "properties": {
+    "LOCATION":"VELLAMUNDA KAKKADAVU SEBASTIAN",
+    "rainfall":9.4,
+    "POLYGON FID":71,
+    "POLYGON ID NAME":62,
+    "PANCHAYAT CODE":"VEL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.00172,11.74558 ]
+    },
+    "properties": {
+    "LOCATION":"PEECHAMCODE AKSHAY",
+    "rainfall":12.4,
+    "POLYGON FID":71,
+    "POLYGON ID NAME":62,
+    "PANCHAYAT CODE":"VEL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.00721,11.74607 ]
+    },
+    "properties": {
+    "LOCATION":"VELLAMUNDA CHERUVALLAM ANTONY",
+    "rainfall":10,
+    "POLYGON FID":71,
+    "POLYGON ID NAME":62,
+    "PANCHAYAT CODE":"VEL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.24164,11.74497 ]
+    },
+    "properties": {
+    "LOCATION":"CHETHALAYAM YADHU",
+    "rainfall":7.8,
+    "POLYGON FID":74,
+    "POLYGON ID NAME":67,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.23306,11.74503 ]
+    },
+    "properties": {
+    "LOCATION":"JESSY BATHERY POKALAMALAM",
+    "rainfall":12.2,
+    "POLYGON FID":74,
+    "POLYGON ID NAME":67,
+    "PANCHAYAT CODE":"BAT"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.84537,11.80282 ]
+    },
+    "properties": {
+    "LOCATION":"PERIA MAKKI RAIN GAUGE STATION",
+    "rainfall":38.6,
+    "POLYGON FID":82,
+    "POLYGON ID NAME":74,
+    "PANCHAYAT CODE":"THO"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.16222,11.81614 ]
+    },
+    "properties": {
+    "LOCATION":"MULLANKOLLY IRENE",
+    "rainfall":6,
+    "POLYGON FID":86,
+    "POLYGON ID NAME":80,
+    "PANCHAYAT CODE":"PUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.20828,11.78744 ]
+    },
+    "properties": {
+    "LOCATION":"PULPALLY AMARAKUNI JOEL",
+    "rainfall":0,
+    "POLYGON FID":87,
+    "POLYGON ID NAME":81,
+    "PANCHAYAT CODE":"PUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.169,11.78772 ]
+    },
+    "properties": {
+    "LOCATION":"SATYANADAN (NIVEDH) PALAMOOLA PULPALLY",
+    "rainfall":7.5,
+    "POLYGON FID":87,
+    "POLYGON ID NAME":81,
+    "PANCHAYAT CODE":"PUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 75.91728,11.84197 ]
+    },
+    "properties": {
+    "LOCATION":"PERIA 43 VARAYAL BABY",
+    "rainfall":8,
+    "POLYGON FID":93,
+    "POLYGON ID NAME":87,
+    "PANCHAYAT CODE":"THAV"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.04855,11.83936 ]
+    },
+    "properties": {
+    "LOCATION":"SANTHOSH KATTIKULAM",
+    "rainfall":8.8,
+    "POLYGON FID":95,
+    "POLYGON ID NAME":90,
+    "PANCHAYAT CODE":"THI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.06469,11.84569 ]
+    },
+    "properties": {
+    "LOCATION":"KATTIKULAM TOWN JOSEPH",
+    "rainfall":9.3,
+    "POLYGON FID":95,
+    "POLYGON ID NAME":90,
+    "PANCHAYAT CODE":"THI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.04414,11.85156 ]
+    },
+    "properties": {
+    "LOCATION":"THRISSILERY RAJESH",
+    "rainfall":16.4,
+    "POLYGON FID":95,
+    "POLYGON ID NAME":90,
+    "PANCHAYAT CODE":"THI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.10487,11.83692 ]
+    },
+    "properties": {
+    "LOCATION":"MANOJ CHEGADI PULPALLY",
+    "rainfall":12.3,
+    "POLYGON FID":96,
+    "POLYGON ID NAME":91,
+    "PANCHAYAT CODE":"PUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.18978,11.84797 ]
+    },
+    "properties": {
+    "LOCATION":"SUNIL KABINIGIRI",
+    "rainfall":3.6,
+    "POLYGON FID":99,
+    "POLYGON ID NAME":93,
+    "PANCHAYAT CODE":"MUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.16978,11.85753 ]
+    },
+    "properties": {
+    "LOCATION":"MARAKKADAVU PULPALLY SUNNY",
+    "rainfall":3.8,
+    "POLYGON FID":99,
+    "POLYGON ID NAME":93,
+    "PANCHAYAT CODE":"MUL"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.18292,11.86892 ]
+    },
+    "properties": {
+    "LOCATION":"JOSE CHERIYAN MARAKKADAVU",
+    "rainfall":6,
+    "POLYGON FID":109,
+    "POLYGON ID NAME":101,
+    "PANCHAYAT CODE":"MUL"
+    }
+  }
+]
+}
