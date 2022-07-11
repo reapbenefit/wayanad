@@ -1,180 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Wayanad Rainfall Heatmap</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
-    <script src="app.js"></script>
-    <link
-      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-      #header {
-        position: absolute;
-        top: 0%;
-        bottom: 0%;
-        width: 100%;
-        text-align: center;
-      }
-      #map {
-        position: absolute;
-        top: 15%;
-        bottom: 0%;
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="header">
-      <h3>
-        Crowdsourced Rainfall Data in Wayanad Region by Hume Centre For Ecology
-        And Wildlife Biology.
-      </h3>
-      <p>
-        Each blob represents rainfall in the region. Double Click on blob till
-        rainfall information pops up
-      </p>
+<html>
+
+<head>
+    <title></title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://api.mapbox.com/mapbox-assembly/v0.24.0/assembly.min.css' rel='stylesheet'>
+    <script src='https://api.mapbox.com/mapbox-assembly/v0.24.0/assembly.js'></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css' rel='stylesheet' />
+    <script
+        src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
+    <link rel='stylesheet'
+        href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.css'
+        type='text/css' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/geojson/0.5.0/geojson.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+    <script src='https://npmcdn.com/csv2geojson@latest/csv2geojson.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel='stylesheet' href="style.css" />
+</head>
+
+<body>
+    <div class='flex-parent viewport-full relative scroll-hidden'>
+        <div class='flex-child w-full w360-ml absolute static-ml left bottom'>
+            <div class='flex-parent flex-parent--column viewport-third bg-white'>
+                <div class='flex-child flex-child--grow'>
+                    <div id="sidebarA"
+                        class="flex-parent flex-parent--column-ml flex-parent--center-main theme py12 px12 ">
+                        <h3 id='title' class='txt-l-ml txt-m txt-bold mb6 mr0-ml mr24 align-center block'>
+                        </h3>
+                        <p id='description' class='txt-s py12 none block-ml'>
+                        </p>
+                        <div class="flex-parent flex-parent--center-main relative-ml absolute right top mt0-ml mt6">
+                            <button id='filterResults' class='txt-bold btn btn--stroke mr0-ml mr12 px18-ml px6'>
+                                <svg class='icon inline-block align-middle h24 w24'>
+                                    <use xlink:href='#icon-filter' /></svg>
+                                <p class="inline-block-ml align-middle remove none">Show Filters</p>
+                            </button>
+                        </div>
+
+
+                    </div>
+                    <div id="listings" class="flex-child viewport-twothirds py12 px12 listings scroll-auto"></div>
+
+                </div>
+            </div>
+        </div>
+        <div class='flex-child flex-child--grow w-auto viewport-full-ml viewport-twothirds' id='map'>
+
+        </div>
+
+        <div id='modal'
+            class='absolute top right bottom left scroll-auto hide-visually flex-parent flex-parent--center-main mt120-ml'>
+            <div class='pt36'>
+                <div class='flex-child bg-white round relative scroll-auto'>
+                    <button id='exitButton' class='absolute top right px12 py12'>
+                        <svg class='icon link color-darken50'>
+                            <use xlink:href='#icon-close'></use>
+                        </svg>
+                    </button>
+                    <div class='px24 py24'>
+                        <form id="filters"></form>
+                        <div class='align-center py12'></div>
+                        <div class="flex-parent flex-parent--center-main">
+                            <button id="removeFilters" class="btn">Reset Filters</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div id="map"></div>
-    <script>
-      const map = new mapboxgl.Map({
-        container: "map",
-        style: "mapbox://styles/mapbox/dark-v10",
-        center: [76.14083, 11.50126],
-        zoom: 9,
-      });
 
-      //GP Experiment of CSV to GeoJSON
+    </div>
+</body>
 
-      // we will add more code here in the next steps
-      map.on("load", () => {
-        alert(
-          "Crowdsourced Rainfall Data in Wayanad Region by Hume Centre For Ecology And Wildlife Biology"
-        );
-        map.addSource("rainfall", {
-          type: "geojson",
-          data: "./rainfall.geojson",
-          //data: "csvData",
-        });
-        // add heatmap layer here
-        map.addLayer(
-          {
-            id: "rainfall-heat",
-            type: "heatmap",
-            source: "rainfall",
-            maxzoom: 15,
-            paint: {
-              // increase weight as diameter breast height increases
-              "heatmap-weight": {
-                property: "rainfall",
-                type: "exponential",
-                stops: [
-                  [1, 0],
-                  [62, 1],
-                ],
-              },
-              // increase intensity as zoom level increases
-              "heatmap-intensity": {
-                stops: [
-                  [11, 1],
-                  [15, 3],
-                ],
-              },
-              // assign color values be applied to points depending on their density
-              "heatmap-color": [
-                "interpolate",
-                ["linear"],
-                ["heatmap-density"],
-                0,
-                "rgba(236,222,239,0)",
-                0.2,
-                "rgb(208,209,230)",
-                0.4,
-                "rgb(166,189,219)",
-                0.6,
-                "rgb(103,169,207)",
-                0.8,
-                "rgb(28,144,153)",
-              ],
-              // increase radius as zoom increases
-              "heatmap-radius": {
-                stops: [
-                  [11, 15],
-                  [15, 20],
-                ],
-              },
-              // decrease opacity to transition into the circle layer
-              "heatmap-opacity": {
-                default: 1,
-                stops: [
-                  [14, 1],
-                  [15, 0],
-                ],
-              },
-            },
-          },
-          "waterway-label"
-        );
-        // add circle layer here
-        map.addLayer(
-          {
-            id: "rainfall-point",
-            type: "circle",
-            source: "rainfall",
-            minzoom: 14,
-            paint: {
-              // increase the radius of the circle as the zoom level and dbh value increases
-              "circle-radius": {
-                property: "rainfall",
-                type: "exponential",
-                stops: [
-                  [{ zoom: 15, value: 1 }, 5],
-                  [{ zoom: 15, value: 62 }, 10],
-                  [{ zoom: 22, value: 1 }, 20],
-                  [{ zoom: 22, value: 62 }, 50],
-                ],
-              },
-              "circle-color": {
-                property: "rainfall",
-                type: "exponential",
-                stops: [
-                  [0, "rgba(236,222,239,0)"],
-                  [10, "rgb(255,0,0)"],
-                  [20, "rgb(208,209,230)"],
-                  [30, "rgb(166,189,0)"],
-                  [40, "rgb(103,169,207)"],
-                  [50, "rgb(28,144,153)"],
-                  [60, "rgb(0,255,0)"],
-                ],
-              },
-              "circle-stroke-color": "red",
-              "circle-stroke-width": 1,
-              "circle-opacity": {
-                stops: [
-                  [14, 0],
-                  [15, 1],
-                ],
-              },
-            },
-          },
-          "waterway-label"
-        );
-      });
+<script>
 
-      map.on("click", "rainfall-point", (event) => {
-        new mapboxgl.Popup()
-          .setLngLat(event.features[0].geometry.coordinates)
-          .setHTML(
-            `<strong>rainfall:</strong> ${event.features[0].properties.rainfall}`
-          )
-          .addTo(map);
-      });
-    </script>
-  </body>
+</script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+
 </html>
