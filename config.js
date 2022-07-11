@@ -8,8 +8,8 @@ const config = {
   title: "City Dashboard",
   description:
     "Crowdsourced Rainfall Data by Hume Centre for Ecology and Wildlife Biology",
-  sideBarInfo: ["LOCATION", "rainfall"],
-  popupInfo: ["rainfall"],
+  sideBarInfo: ["Estate Name", "rainfallmm"],
+  popupInfo: ["rainfallmm"],
   filters: [
     {
       type: "dropdown",
