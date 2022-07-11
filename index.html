@@ -31,13 +31,16 @@
         container: "map",
         style: "mapbox://styles/mapbox/dark-v10",
         center: [76.14083, 11.50126],
-        zoom: 11,
+        zoom: 9,
       });
 
       //GP Experiment of CSV to GeoJSON
 
       // we will add more code here in the next steps
       map.on("load", () => {
+        alert(
+          "Crowdsourced Rainfall Data in Wayanad Region by Hume Centre For Ecology And Wildlife Biology"
+        );
         map.addSource("rainfall", {
           type: "geojson",
           data: "./rainfall.geojson",
